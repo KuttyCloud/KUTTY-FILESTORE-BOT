@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = "KuttyFileSharingBot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002105619071"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1572929036"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Merge1:Merge@cluster0.k7ungxs.mongodb.net")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Itachi:15@itachiuchicha.3nsc8.mongodb.net/?retryWrites=true&w=majority&appName=ItachiUchicha")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002400430988")
 	LOG_CHANNEL = "-1002192881598"
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
